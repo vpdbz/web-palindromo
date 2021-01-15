@@ -35,7 +35,6 @@ class WalmartPage extends React.PureComponent {
 
   loadData = (url) => {
     const requestOptions = {
-      mode:'no-cors',
       method: 'GET'
     };
     fetch(url, requestOptions)
